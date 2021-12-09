@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body
+{
+	font-family: 'Arial';
+	background-image: url("dps.png");
+    background-size: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button {
+    color: cornsilk;
+    padding: 10px 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: rgb(64, 128, 128);
+    display: block;
+    border-radius: 20px;
+    transition: transform 0.5s
+}
+.button:hover {
+    transform: scale(0.9);
+}
+.logo {
+    width: 100px;
+}
